@@ -1,47 +1,39 @@
-# TikTok Video Downloader Bot
 
-Bot Telegram yang memungkinkan pengguna untuk mengunduh video TikTok hanya dengan mengirimkan URL video TikTok. Bot ini menggunakan API **TikWM** untuk mendownload video tanpa watermark dan mengirimkannya kembali ke pengguna.
+TikTok Video Downloader Bot
+A Telegram bot that allows users to download TikTok videos by simply sending the video URL. This bot uses the TikWM API to download videos without watermarks and sends them back to the user.
 
----
+Features
+Easy to use: Simply send the TikTok URL, and the bot will send back the video without watermarks.
 
-## Fitur
-- **Mudah digunakan**: Cukup kirimkan URL TikTok, dan bot akan mengirimkan video tanpa watermark.
-- **Mendukung URL pendek**: Bot juga dapat menerima link TikTok yang dipendekkan (misalnya `https://vt.tiktok.com/...`).
-- **Tanpa watermark**: Video yang dikirimkan bebas dari watermark TikTok.
+Supports shortened URLs: The bot can also handle shortened TikTok links (e.g., https://vt.tiktok.com/...).
 
----
+Watermark-free: The video sent is free from TikTok's watermark.
 
-## Struktur Proyek
-- **`main.py`**: Kode utama yang menjalankan bot Telegram dan menangani pesan dari pengguna.
-- **`keep_alive.py`**: Menjaga server tetap aktif di Replit dengan menggunakan Flask.
-- **`requirements.txt`**: Daftar dependensi Python yang diperlukan.
+Project Structure
+main.py: The main code that runs the Telegram bot and handles messages from users.
 
----
+keep_alive.py: Keeps the server alive on Replit using Flask.
 
-## Teknologi yang Digunakan
-- **Python**: Bahasa pemrograman untuk bot.
-- **python-telegram-bot**: Library untuk mengembangkan bot Telegram.
-- **Flask**: Framework untuk menjaga agar bot tetap aktif di Replit.
-- **TikWM API**: API untuk mendownload video TikTok tanpa watermark.
+requirements.txt: A list of Python dependencies needed.
 
----
+Technologies Used
+Python: The programming language for the bot.
 
-## Kontribusi
+python-telegram-bot: Library for developing the Telegram bot.
 
-Jika kamu ingin berkontribusi pada proyek ini, silakan lakukan fork, buat perubahan, dan kirimkan pull request.
+Flask: Framework used to keep the bot active on Replit.
 
----
+TikWM API: API for downloading TikTok videos without watermarks.
 
-## Lisensi
-Proyek ini dilisensikan di bawah **MIT License** - lihat file [LICENSE](LICENSE) untuk detail lebih lanjut.
+Contribution
+If you want to contribute to this project, feel free to fork it, make changes, and submit a pull request.
 
----
+License
+This project is licensed under the MIT License - see the LICENSE file for more details.
 
-## Catatan
+Notes
+Make sure your bot does not violate TikTok or Telegram's terms of service.
 
-- Pastikan bot kamu tidak melanggar ketentuan penggunaan TikTok atau Telegram.
-- Gunakan bot ini secara bertanggung jawab.
+Use this bot responsibly.
 
----
-
-Jika ada pertanyaan atau saran, silakan buka **Issues** atau hubungi kami melalui Telegram.
+If you have any questions or suggestions, feel free to open an Issue or contact us.
