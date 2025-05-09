@@ -2,6 +2,8 @@
 
 A Telegram bot that allows users to download TikTok videos simply by sending the TikTok video URL. This bot uses the **TikWM** API to download videos without a watermark and sends them back to the user.
 
+You can use the bot here: [MyDownloaderForTiktokBot](https://t.me/MyDownloaderForTiktokBot)
+
 ---
 
 ## Features
